@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRedTech Innovations | Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; background: #f9f9f9; color: #333; line-height: 1.6; overflow-x: hidden; }
+    nav { background: #111; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 999; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    nav a { color: #fff; margin: 0 12px; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+    nav a:hover { color: #e63946; }
+    nav .logo { display: flex; align-items: center; gap: 10px; color: #e63946; font-size: 24px; font-weight: 700; }
+    nav .logo img { height: 40px; width: auto; }
+    section { padding: 80px 20px; max-width: 1200px; margin: auto; position: relative; }
+    .hero { background: linear-gradient(to right, #111, #222); color: #fff; text-align: center; padding: 140px 20px; }
+    .hero h1 { font-size: 3.5em; animation: fadeInDown 1s ease-out; }
+    .hero p { font-size: 1.2em; margin: 15px 0; animation: fadeInUp 1.5s ease-out; }
+    .btn { background: #e63946; color: white; padding: 14px 28px; border: none; border-radius: 6px; font-size: 1em; cursor: pointer; text-decoration: none; transition: background 0.3s; }
+    .btn:hover { background: #c72536; }
+    .section-title { font-size: 2.5em; margin-bottom: 30px; color: #e63946; text-align: center; }
+    .grid { display: grid; gap: 30px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .card { background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); transition: transform 0.3s ease-in-out; }
+    .card:hover { transform: translateY(-10px); }
+    .footer { background: #111; color: white; padding: 40px; text-align: center; }
+    input, textarea { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; }
+    form .btn { width: 100%; }
+    .soon-tag { color: #888; font-style: italic; font-size: 0.9em; margin-top: 5px; }
+
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="logo2.png" alt="DRedTech Logo">
+      DRedTech Innovations
+    </div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#vision">Vision</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>DRedTech Innovations</h1>
+    <p>Empowering Tech & Training with Innovation<br><strong>Led by Innovations</strong></p>
+    <a class="btn" href="#contact">Contact Us</a>
+    <p class="soon-tag">💬 AI Assistant Coming Soon...</p>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2 class="section-title">About Us</h2>
+    <p>DRedTech Innovations is a next-gen startup delivering AI-driven software development, automation, and cutting-edge tech training. We focus on practical, scalable solutions that drive careers and transform businesses.</p>
+  </section>
+
+  <section id="vision" data-aos="zoom-in">
+    <h2 class="section-title">Vision & Mission</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Our Vision</h3>
+        <p>Creating a smart future through AI, automation, and accessible digital education for everyone.</p>
+      </div>
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>To empower students and businesses with intelligent solutions and real-world skill-building through coaching and software systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" data-aos="fade-up">
+    <h2 class="section-title">Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h4>Software Development</h4>
+        <p>Custom-built web, mobile, and backend systems for modern enterprises.</p>
+      </div>
+      <div class="card">
+        <h4>AI Integration</h4>
+        <p>Automation, AI bots, and smart tools for business workflows.<br><span class="soon-tag">Coming Soon</span></p>
+      </div>
+      <div class="card">
+        <h4>Training & Mentorship</h4>
+        <p>DSA, project-based learning, placement prep & coding mentorship programs.</p>
+      </div>
+      <div class="card">
+        <h4>LMS & EdTech Solutions</h4>
+        <p>Interactive learning systems with email automation, analytics & content management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" data-aos="fade-right">
+    <h2 class="section-title">Our Team</h2>
+    <div class="grid">
+      <div class="card">
+        <h4>Gopal</h4>
+        <p>Co-Founder | Strategy & Mentorship</p>
+      </div>
+      <div class="card">
+        <h4>Pranjal</h4>
+        <p>CTO | Product Architect & AI Lead</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" data-aos="fade-left">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h4>NutriRich LMS</h4>
+        <p>Custom learning system with user roles, analytics, and smart notifications.</p>
+      </div>
+      <div class="card">
+        <h4>Resume AI</h4>
+        <p>Upcoming resume analyzer with feedback and ranking system.<br><span class="soon-tag">AI Powered – Coming Soon</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2 class="section-title">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p class="soon-tag">📍 Bhilwara | More Locations Coming Soon</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 DRedTech Innovations. All Rights Reserved.</p>
+    <p>AI-first future begins here 🚀 | hello@dredtech.in</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
